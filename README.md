@@ -88,7 +88,7 @@ This subset comprises procedural instructions detailing various tasks involved i
   - **step_description**: Description of each step.
   - **nesting**: Links to nested procedures if applicable.
 
-- **`PROCEDURES_images/`**: Contains images referenced in the 'PROCEDURES_corpus.json' file. Each image is linked to a procedural instruction.
+- **`PROCEDURES_images/`**: Contains images referenced in the `PROCEDURES_corpus.json` file. Each image is linked to a procedural instruction.
 - 
 #### Example
 
