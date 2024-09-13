@@ -1,0 +1,101 @@
+{
+    "_id": "65113a0c5d9c3075571719b2",
+    "es": {
+        "title": "Abrir un programa",
+        "introduction": "",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Independientemente de la pantalla en la que se encuentre el CNC, pulsar el botón EDIT, tal y como se muestra en la siguiente imagen:",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso1.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Aparecerá la siguiente pantalla. Si no es así, seguir clicando el botón EDIT hasta lograrlo.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso2.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Una vez en la pantalla, se debe clicar sobre el softkey \"Abrir programa\", que hará que se visualice el explorador de carpetas.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso3.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 3,
+                        "title": "Una vez se tenga visible el explorador de carpetas, se deberá identificar la carpeta donde se guardó el programa, y abrirla hasta visualizar el programa que se busca, que se abrirá usando \"Enter\" o doble clic.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso4.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "eu": {
+        "title": "Programa bat ireki",
+        "introduction": "",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": " CNC-a zein pantailatan dagoen kontuan hartu gabe, sakatu EDIT botoia, irudi honetan agertzen den bezala.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso1.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Pantaila hau agertuko da. Hala ez bada, EDIT botoia sakatzen jarraitu, lortu arte.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso2.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Behin pantailan, \"Ireki programa\" softkeyan klik egin behar da, karpeten arakatzailea bistaratzeko.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso3.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 3,
+                        "title": "Karpeten arakatzailea ikusgai dagoenean, programa gorde zen karpeta identifikatu beharko da eta hura ireki, bilatzen den programa bistaratu arte. Programa hori \"Enter\" sakatuz edo klik bikoitza erabiliz irekiko da.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso4.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

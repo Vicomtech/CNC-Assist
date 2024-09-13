@@ -1,0 +1,177 @@
+{
+    "_id": "65113b305d9c3075571719b3",
+    "es": {
+        "title": "Definir material en bruto para la simulación de un programa",
+        "introduction": "",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "Formato conversacional",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Abrir el programa deseado",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Con el fin de establecer el material en bruto sobre el que se simulará posteriormente el programa, se debe pulsar la tecla \"EDIT\", tal y como  se indica en la siguiente imagen:",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso2.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Aparecerá la pantalla de simulación que aparece en la imagen. Si no es así, clicar el botón EDIT hasta que esta aparezca.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso3.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 3,
+                        "title": "Una vez en la pantalla de simulación, se deberá buscar el softkey de la barra horizontal llamado \"Dimensiones\".",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso4.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 4,
+                        "title": "Una vez se haga clic en dicho botón, se abrirá la siguiente pantalla:",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso5.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 5,
+                        "title": "Las coordenadas máximas y mínimas para cada eje, que definirán la pieza en bruto, se deberán introducir en sus ventanas correspondientes.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso6.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "Por comando",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Abrir el programa deseado.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Incluir en la cabecera del programa CNC (es decir, como primera línea de código) el siguiente comando con los valores correspondientes: #DGWZ[X Min,X Max,Y Min,Y Max,Z Min,Z Max]",
+                        "step_description": "Por ejemplo, para la pieza de la imagen: #DGWZ[0,140,0,120,-40,0]",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo2-Paso2.PNG"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "eu": {
+        "title": "Simulaziorako material landugabea definitu",
+        "introduction": "",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "Elkarrizketa-formatua",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Nahi den programa zabaldu.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Programa simulatzerakoan erabiliko den material landugabea ezartzeko \"EDIT\" botoia sakatu behar da, honako irudian erakusten den bezala:",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso2.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Irudian ikusten den simulazio-pantaila agertuko da. Horrela ez bada, sakatu EDIT botoia hura agertu arte.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso3.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 3,
+                        "title": "Behin simulazio-pantailan, \"Dimentsioak\" izeneko barra horizontaleko softkey-a bilatu behar da.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso4.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 4,
+                        "title": "Botoi horretan klik egindakoan, ondorengo pantaila hau irekiko da:",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso5.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 5,
+                        "title": "Ardatz bakoitzeko koordenatu maximoak eta minimoak, zeinek pieza landugabea definituko duten, dagozkien leihoetan sartu beharko dira.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso6.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "Komando bidez",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Nahi den programa zabaldu.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "CNC programaren goiburuan (kodearen lehenengo lerroan) jarraian agertzen den komandoa idatzi dagozkien balioekin: #DGWZ[X Min,X Max,Y Min,Y Max,Z Min,Z Max]",
+                        "step_description": "Adibidez, irudiko piezaren kasuan: #DGWZ[0,140,0,120,-40,0]",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo2-Paso2.PNG"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "_id": "651142755d9c3075571719ba",
+    "es": {
+        "title": "Simular un programa",
+        "introduction": "Una vez se ha programado un programa, es conveniente simular las trayectorias y verificar que no se dan colisiones de herramienta, o entradas no deseadas dentro de la pieza de trabajo final.",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "Ejecutar la simulación en la misma pantalla de edición del programa",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Abrir programa.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Pulsar el softkey de \"start simulación\".",
+                        "step_description": "Simular de esta manera puede servir para detectar errores, pero sin ver ningún movimiento de ejes o simulación de líneas. En el caso de que el programa no contenga errores, no se visualizará ningún mensaje, simplemente la simulación correrá.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "Activar la pantalla de simulación 2D o 3D",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Si en pantalla no aparece el programa que se desea simular, es necesario abrir el programa deseado.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Pulsar el botón \"EDIT\" hasta que se active la pantalla de simulación 2D o 3D, tal y como se muestra en las siguientes imágenes.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Pulsar \"Start Simulación\" y la simulación de la pieza comenzará.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 3,
+                        "title": "Existen diferentes modos de visualización: 2D, 3D, plano XY, plano XZ, etc.",
+                        "step_description": "Pulsando el softkey “Tipo de gráfico” se desplegará la opción de visualización de simulación tal y como se muestra en la siguiente imagen.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso4.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "eu": {
+        "title": "Programa bat simulatu",
+        "introduction": "Programa bat programatu ondoren, komenigarria da ibilbideak simulatzea eta egiaztatzea ez dela gertatzen erreminta talkarik edo nahi ez diren sarrerarik laneko piezaren barruan.",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "Programa editatzeko pantailan bertan egin simulazioa",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Programa ireki.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": "\"Start simulación\" softkey-a sakatu.",
+                        "step_description": "Horrela simulatzeak akatsak antzemateko balio dezake, baina ardatzen mugimendurik edo lerroen simulaziorik ikusi gabe. Programak akatsik ez badu, ez da mezurik bistaratuko; simulazioak aurrera egingo du, besterik gabe.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "2D edo 3D simulazio-pantaila aktibatu",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Pantailan simulatu nahi den programa agertzen ez bada, nahi den programa ireki behar da.",
+                        "step_description": "",
+                        "additional_info": [],
+                        "nesting": "65113a0c5d9c3075571719b2"
+                    },
+                    {
+                        "_id": 1,
+                        "title": " Sakatu \"EDIT\" botoia 2D edo 3D simulazio-pantaila aktibatu arte, hurrengo irudietan erakusten den bezala.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Sakatu \"Start Simulación\" eta piezaren simulazioa hasiko da.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 3,
+                        "title": "Bistaratzeko hainbat modu daude: 2D, 3D, XY planoa, XZ planoa, etab.",
+                        "step_description": "\"Grafiko mota\" softkey-a sakatuz gero, simulazioa bistaratzeko aukera zabalduko da, hurrengo irudian agertzen den bezala.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso4.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

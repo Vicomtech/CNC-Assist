@@ -1,0 +1,154 @@
+{
+    "_id": "651141eb5d9c3075571719b8",
+    "es": {
+        "title": "Definición de las herramientas",
+        "introduction": "Este procedimiento tiene como finalidad definir y nombrar las herramientas que se utilizarán en el caso de uso.",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "Modo completo",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Pulsar el softkey \"TOOLS\", como se muestra a continuación.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+                        ],
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Aparecerá la pantalla que se muestra en la siguiente imagen. Si no aparece, pulsar el softkey \"Mostrar tabla\" tal y como se indica en la segunda imagen.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Para editar una herramienta, se debe clicar en el número correspondiente y escribir su nombre. Ejemplo: \"Fresa D16\". Posteriormente, seleccionar el tipo de herramienta y se concluye definiendo sus dimensiones principales.",
+                        "step_description": "ES MUY IMPORTANTE que se pulse el botón ENTER al introducir cada valor. De lo contrario, no se guardará.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "Modo simple",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Pulsar el softkey \"TOOLS\", como se muestra a continuación.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Aparecerá la pantalla que se muestra en la siguiente imagen. Si no aparece, pulsar el softkey \"Mostrar herramienta\".",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Para editar una herramienta, se debe clicar en el número correspondiente y escribir su nombre. Ejemplo: \"Fresa D16\". Posteriormente, seleccionar el tipo de herramienta y se concluye definiendo sus dimensiones principales.",
+                        "step_description": "ES MUY IMPORTANTE que se pulse el botón ENTER al introducir cada valor. De lo contrario, no se guardará.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "eu": {
+        "title": "Erreminten definizioa",
+        "introduction": "Prozedura honen helburua erabilera kasuan erabiliko diren tresnak definitzea eta izendatzea da.",
+        "additional_info": [],
+        "methods": [
+            {
+                "_id": 0,
+                "title": "Modu osoa",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Sakatu \"TOOLS\" tekla, ondoren azaltzen den bezala.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Hurrengo irudian agertzen den pantaila agertuko da. Agertzen ez bada, sakatu \"Erakutsi taula\" tekla, bigarren irudian adierazten den moduan.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Tresna bat editatzeko, dagokion zenbakian klik egin eta izena idatzi behar da. Adibidez: \"Fresa D16\". Ondoren, erreminta mota hautatu eta haren dimentsio nagusiak definituz amaitzen da.",
+                        "step_description": "OSO GARRANTZITSUA DA ENTER botoia sakatzea balio bakoitza sartzean. Bestela, ez da gordeko.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "Modo simple",
+                "steps": [
+                    {
+                        "_id": 0,
+                        "title": "Sakatu \"TOOLS\" tekla, ondoren azaltzen den bezala.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 1,
+                        "title": "Hurrengo irudian agertzen den pantaila agertuko da. Agertzen ez bada, sakatu \"Erakutsi tresna\" tekla.",
+                        "step_description": "",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2a.png",
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2b.png"
+                        ],
+                        "nesting": ""
+                    },
+                    {
+                        "_id": 2,
+                        "title": "Tresna bat editatzeko, dagokion zenbakian klik egin eta izena idatzi behar da. Adibidez: \"Fresa D16\". Ondoren, erreminta mota hautatu eta haren dimentsio nagusiak definituz amaitzen da.",
+                        "step_description": "OSO GARRANTZITSUA DA ENTER botoia sakatzea balio bakoitza sartzean. Bestela, ez da gordeko.",
+                        "additional_info": [
+                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+                        ],
+                        "nesting": ""
+                    }
+                ]
+            }
+        ]
+    }
+}
