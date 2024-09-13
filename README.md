@@ -29,18 +29,20 @@ This subset includes questions and answers based on the Spanish version of a ref
 - **Annotation**: Using the CrowdZientzia platform, bilingual technical experts annotated questions, categorized them into "generic" or "specific", and provided both original and improved answers.
 - **Translation**: The question-answer pairs were translated into Basque.
 
-#### Format
+#### Files
 
-Each entry in this subset contains:
+- **`QA_corpus.json`**: Contains the question-answer pairs. Each entry includes:
+  - **es** (Spanish) and **eu** (Basque) versions of the question and answer.
+  - **question**: The question text.
+  - **question_variations**: Variations of the question.
+  - **answer**: The raw answer text.
+  - **html_answer**: HTML-structured answer (for generic questions).
+  - **improved_answer**: Enhanced answer provided by annotators.
+  - **type**: The question type ("generic" or "specific").
+  - **image**: Associated images, if any.
 
-- **es** (Spanish) and **eu** (Basque) versions of the question and answer.
-- **question**: The question text.
-- **question_variations**: Variations of the question.
-- **answer**: The raw answer text.
-- **html_answer**: HTML-structured answer (for generic questions).
-- **improved_answer**: Enhanced answer provided by annotators.
-- **type**: The question type ("generic" or "specific").
-- **image**: Associated images, if any.
+- **`QA_images/`**: Contains images referenced in the `QA_corpus.json` file. Each image is linked to a question-answer pair.
+
 
 #### Example
 
@@ -74,19 +76,20 @@ This subset comprises procedural instructions detailing various tasks involved i
 - **Compilation**: Procedures were organized into JSON format using a custom GUI.
 - **Linking**: Procedures include links to related procedures when necessary.
 
-#### Format
+#### Files
 
-Each entry in this subset contains:
+- - **`PROCEDURES_corpus.json`**: Contains the procedural instructions. Each entry includes:
+  - **es** (Spanish) and **eu** (Basque) versions of the procedure.
+  - **title**: The title of the procedure.
+  - **introduction**: Optional introductory text.
+  - **additional_info**: Extra information like images.
+  - **methods**: Different methods to perform the procedure.
+  - **steps**: A series of steps involved in the procedure.
+  - **step_description**: Description of each step.
+  - **nesting**: Links to nested procedures if applicable.
 
-- **es** (Spanish) and **eu** (Basque) versions of the procedure.
-- **title**: The title of the procedure.
-- **introduction**: Optional introductory text.
-- **additional_info**: Extra information like images.
-- **methods**: Different methods to perform the procedure.
-- **steps**: A series of steps involved in the procedure.
-- **step_description**: Description of each step.
-- **nesting**: Links to nested procedures if applicable.
-
+- **`PROCEDURES_images/`**: Contains images referenced in the 'PROCEDURES_corpus.json' file. Each image is linked to a procedural instruction.
+- 
 #### Example
 
 ```json
@@ -138,6 +141,10 @@ Each entry in this subset contains:
   }
 }
 ```
+
+## References
+
+This corpus is part of the research presented in the paper titled "Towards the Development of a Conversational CNC Assistant: Compiling a Sample of Key Questions and Procedures for Benchmarking Purposes". The paper will be published as part of the proceedings of the International Conference on Industry 4.0 and Smart Manufacturing (ISM 2024).
 
 ## Contributing
 
