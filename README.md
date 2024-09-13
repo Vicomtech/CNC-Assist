@@ -1,2 +1,147 @@
-# Aquí va el readme
-...
+# CNC Programming Corpus
+
+Welcome to the CNC Programming Corpus repository! This repository contains a compiled corpus designed to support CNC programming, offering a comprehensive set of question-answer pairs and procedural instructions in both Spanish and Basque.
+
+## Contents
+
+The corpus is divided into two main subsets:
+
+1. **Question-Answering Subset**: A bilingual collection of question-answer pairs covering a range of topics related to CNC programming.
+2. **Procedures Subset**: A series of step-by-step procedures, also bilingual, detailing various tasks involved in CNC programming.
+
+## Data Compilation
+
+### 1. Question-Answering Subset
+
+This subset includes questions and answers based on the Spanish version of a reference technical manual for milling machines. The process for compiling this subset includes:
+
+- **Conversion**: The technical manual was converted from PDF to a machine-readable HTML format.
+- **Processing**: Textual data was cleaned and organized into JSON format.
+- **Annotation**: Using the CrowdZientzia platform, bilingual technical experts annotated questions, categorized them into "generic" or "specific", and provided both original and improved answers.
+- **Translation**: The question-answer pairs were translated into Basque.
+
+#### Format
+
+Each entry in this subset contains:
+
+- **es** (Spanish) and **eu** (Basque) versions of the question and answer.
+- **question**: The question text.
+- **question_variations**: Variations of the question.
+- **answer**: The raw answer text.
+- **html_answer**: HTML-structured answer (for generic questions).
+- **improved_answer**: Enhanced answer provided by annotators.
+- **type**: The question type ("generic" or "specific").
+- **image**: Associated images, if any.
+
+#### Example
+
+```json
+{
+  "id": "<HASH0>",
+  "es": {
+    "question": "¿Para qué se utiliza la letra F?",
+    "question_variations": ["¿Tiene algo que ver la letra F con el avance de los ejes?"],
+    "answer": "·F· Avance de los ejes. El avance se representa mediante la letra F seguida del valor de avance deseado.",
+    "html_answer": "",
+    "improved_answer": "Se utiliza para programar o modificar el valor del avance de herramienta."
+  },
+  "eu": {
+    "question": "Zertarako erabiltzen da F hizkia?",
+    "question_variations": ["F hizkiak ardatzen aintzinapenarekin zerikusirik du?"],
+    "answer": "·F· Ardatzen aintzinapena. Aintzinapena F letraren bidez adierazten da, eta, ondoren, lortu nahi den aintzinapen-balioa.",
+    "html_answer": "",
+    "improved_answer": "Erramintaren aintzinapena aldatu edo programatzeko erabiltzen da."
+  },
+  "type": "specific",
+  "image": ["https://example.com/spe-image.png"]
+}
+```
+
+### 2. Procedures Subset
+
+This subset comprises procedural instructions detailing various tasks involved in CNC programming. It includes:
+
+- **Identification**: Procedures were identified and annotated by bilingual technical experts.
+- **Compilation**: Procedures were organized into JSON format using a custom GUI.
+- **Linking**: Procedures include links to related procedures when necessary.
+
+#### Format
+
+Each entry in this subset contains:
+
+- **es** (Spanish) and **eu** (Basque) versions of the procedure.
+- **title**: The title of the procedure.
+- **introduction**: Optional introductory text.
+- **additional_info**: Extra information like images.
+- **methods**: Different methods to perform the procedure.
+- **steps**: A series of steps involved in the procedure.
+- **step_description**: Description of each step.
+- **nesting**: Links to nested procedures if applicable.
+
+#### Example
+
+```json
+{
+  "id": "<HASH1>",
+  "es": {
+    "title": "Editar o modificar un programa",
+    "introduction": "",
+    "additional_info": [],
+    "methods": [{
+      "_id": 0,
+      "title": "",
+      "steps": [{
+        "_id": 0,
+        "title": "Abrir el programa deseado.",
+        "step_description": "",
+        "additional_info": [],
+        "nesting": "<HASH2>"
+      },{
+        "_id": 1,
+        "title": "Con el programa en pantalla, tal y como se muestra en la siguiente imagen, se podrá comenzar a modificar o extender el código G para programar la pieza.",
+        "step_description": "",
+        "additional_info": ["https://example.com/image.png"],
+        "nesting": ""
+      }]
+    }]
+  },
+  "eu": {
+    "title": "Programa bat editatu edo aldatu",
+    "introduction": "",
+    "additional_info": [],
+    "methods": [{
+      "_id": 0,
+      "title": "",
+      "steps": [{
+        "_id": 0,
+        "title": "Erabili nahi den programa zabaldu.",
+        "step_description": "",
+        "additional_info": [],
+        "nesting": "<HASH2>"
+      },{
+        "_id": 1,
+        "title": "Programa pantailan edukita, hurrengo irudian erakusten den bezala, G kodea aldatzen edo hedatzen hasi ahal izango da pieza programatzeko.",
+        "step_description": "",
+        "additional_info": ["https://example.com/image.png"],
+        "nesting": ""
+      }]
+    }]
+  }
+}
+```
+
+## Contributing
+
+Contributions to the corpus are welcome! If you have suggestions for additional question-answer pairs or procedures, or if you notice any errors, please open an issue or submit a pull request.
+
+## License
+
+This corpus is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+
+## Contact
+
+For any questions or inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Thank you for using the CNC Programming Corpus! We hope this resource aids in your CNC programming endeavors.
