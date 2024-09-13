@@ -1,0 +1,1570 @@
+[
+	{
+	    "_id": "65113a0c5d9c3075571719b2",
+	    "es": {
+	        "title": "Abrir un programa",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Independientemente de la pantalla en la que se encuentre el CNC, pulsar el botón EDIT, tal y como se muestra en la siguiente imagen:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Aparecerá la siguiente pantalla. Si no es así, seguir clicando el botón EDIT hasta lograrlo.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Una vez en la pantalla, se debe clicar sobre el softkey \"Abrir programa\", que hará que se visualice el explorador de carpetas.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Una vez se tenga visible el explorador de carpetas, se deberá identificar la carpeta donde se guardó el programa, y abrirla hasta visualizar el programa que se busca, que se abrirá usando \"Enter\" o doble clic.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Programa bat ireki",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": " CNC-a zein pantailatan dagoen kontuan hartu gabe, sakatu EDIT botoia, irudi honetan agertzen den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Pantaila hau agertuko da. Hala ez bada, EDIT botoia sakatzen jarraitu, lortu arte.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Behin pantailan, \"Ireki programa\" softkeyan klik egin behar da, karpeten arakatzailea bistaratzeko.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Karpeten arakatzailea ikusgai dagoenean, programa gorde zen karpeta identifikatu beharko da eta hura ireki, bilatzen den programa bistaratu arte. Programa hori \"Enter\" sakatuz edo klik bikoitza erabiliz irekiko da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/abrir-programa/Metodo1-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "651144545d9c3075571719bd",
+	    "es": {
+	        "title": "Configuración del decalaje programado",
+	        "introduction": "Siempre que pulsemos el softkey \"TABLES\" se podrán visualizar los PRESET (por ejemplo, G54 o G55) si está activa la opción de \"orígenes\". En dichos PRESET, se visualizan los valores de las distancias en los respectivos ejes que hay desde el cero máquina hasta el cero pieza, pero para ello primero se deberían de configurar y activarlos. Este procedimiento te ayudará a llevar a cabo esta tarea.",
+	        "additional_info": [
+	            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/DescripcionProcedimiento.png"
+	        ],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Desde cualquier pantalla del sistema, pulsar el botón \"MANUAL\".",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Aparecerán en la siguiente pantalla los botones \"Preselect\" y \"Offsets\", necesarios para configurar los PRESET.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Definir la posición de la pieza cero teniendo en cuenta el procedimiento de mecanizado.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Con la máquina encendida, la pieza debidamente amarrada y en sistema manual con una herramienta taster, palpar los ejes \"X\" e \"Y\" en la zona necesaria y definir las cero piezas mediante el botón \"Preselect\".",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Definir el cero pieza con el dispositivo de puesta a cero del eje \"Z\" con precisión.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "En la misma pantalla, pulsar el softkey \"Offsets\", seleccionar el preset que deseamos configurar (G55) y tras pulsar ENTER cambiaran los valores de \"X\", \"Y\" y \"Z\".",
+	                        "step_description": "Esto se puede ver en el rectángulo amarillo de la imagen.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Tras haber realizado el paso anterior, en el PRESET G55 de la pantalla TABLES también se deberían haber actualizado los valores \"X\", \"Y\" y \"Z\".",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Programatutako dekalajearen konfigurazioa",
+	        "introduction": "TABLES softkeya sakatzen dugun bakoitzean, PRESETak bistaratu ahal izango dira (adibidez, G54 edo G55), baldin eta \"jatorri\" aukera aktibatuta badago. PRESET horietan, distantzien balioak bistaratzen dira zero makinatik zero piezaraino dauden ardatzetan, baina, horretarako, lehenik eta behin konfiguratu eta aktibatu egin beharko dira. Prozedura honek zeregin hau gauzatzen lagunduko dizu.",
+	        "additional_info": [
+	            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/DescripcionProcedimiento.png"
+	        ],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Sistemaren edozein pantailatatik, sakatu \"MANUAL\" botoia",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Hurrengo pantailan, PRESETak konfiguratzeko beharrezkoak diren \"Preselect\" eta \"Offsets\" botoiak agertuko dira.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Mekanizazio prozedura kontuan izanik definitu zero piezaren kokapena.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Makina piztuta, pieza behar den moduan lotuta eta sistema eskuzko moduan dagoela, taster batekin \"X\" eta \"Y\" ardatzak behar diren lekuan ukitu eta \"Preselect\" botoia erabiliz zero pieza definitu.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "\"Z\" ardatza doitasunez zeroan jartzeko gailua erabiliz zero pieza definitu.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Pantaila berdinean \"Offset\" botoia sakatu, konfiguratu nahi dugun preset-a (G55) aukeratu eta ENTER sakatu ondoren \"X\", \"Y\" eta \"Z\" balioak aldatuko dira.",
+	                        "step_description": "Ikusi irudiko karratu horia.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Aurreko pausua bete ostean, TABLES pantailako G55 PRESET-ean ere \"X\", \"Y\" eta \"Z\" balioak ere eguneratuta egon beharko lirateke.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/configuracion-decalaje/Metodo1Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "651141345d9c3075571719b7",
+	    "es": {
+	        "title": "Crear un nuevo programa",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Independientemente de la pantalla en la que se encuentre el CNC, pulsar el botón \"EDIT\" que se muestra en la siguiente imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Aparecerá la siguiente pantalla. Si no es así, seguir clicando el botón \"EDIT\" hasta que ésta aparezca.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Una vez en la pantalla, se debe clicar sobre el softkey \"Abrir programa\", que hará que se visualice el explorador de carpetas.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Una vez se muestre el explorador de carpetas, se debe seleccionar la carpeta en la que se quiere crear el programa.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso4-5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "A continuación, se deberá clicar sobre la barra donde se lee \"Fichero\", asegurarse de que el cursor parpadea en dicho lugar y escribir el nombre del programa. Se muestra en la siguiente imagen:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso4-5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Pulsar ENTER una vez escrito el nombre del programa.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Una vez realizados los pasos anteriores, se mostrará la siguiente pantalla donde se podrá comenzar a introducir el código G y programar la pieza. El programa se guarda automáticamente, sin necesidad de realizar ninguna acción específica para ello.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Programa berri bat sortu",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": " CNC-a zein pantailatan dagoen kontuan hartu gabe, sakatu irudi honetan agertzen den \"EDIT\" botoia.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Pantaila hau agertuko da. Hala ez bada, sakatu \"EDIT\" botoia, hura agertu arte",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Behin pantailan, \"Ireki programa\" softkey-an klik egin behar da, karpeten arakatzailea bistaratzeko.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Karpeta arakatzailea ikusgai dagoenean, programa sortu nahi den karpeta hautatu behar da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso4-5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Jarraian, \"Fitxategia\" esaten duen barraren gainean klik egin behar da, ziurtatu kurtsorea leku horretan keinuka ari dela eta programaren izena idatzi, hurrengo irudian agertzen den moduan:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso4-5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Sakatu ENTER programaren izena idatzi ondoren.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Aurreko urratsak egindakoan, pantaila hau agertuko da, G kodea sartzen eta pieza programatzen hasteko. Programa automatikoki gordetzen da, horretarako ekintza espezifikorik egin beharrik gabe.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/crear-programa/Metodo1-Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "651141eb5d9c3075571719b8",
+	    "es": {
+	        "title": "Definición de las herramientas",
+	        "introduction": "Este procedimiento tiene como finalidad definir y nombrar las herramientas que se utilizarán en el caso de uso.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "Modo completo",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Pulsar el softkey \"TOOLS\", como se muestra a continuación.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Aparecerá la pantalla que se muestra en la siguiente imagen. Si no aparece, pulsar el softkey \"Mostrar tabla\" tal y como se indica en la segunda imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Para editar una herramienta, se debe clicar en el número correspondiente y escribir su nombre. Ejemplo: \"Fresa D16\". Posteriormente, seleccionar el tipo de herramienta y se concluye definiendo sus dimensiones principales.",
+	                        "step_description": "ES MUY IMPORTANTE que se pulse el botón ENTER al introducir cada valor. De lo contrario, no se guardará.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            },
+	            {
+	                "_id": 1,
+	                "title": "Modo simple",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Pulsar el softkey \"TOOLS\", como se muestra a continuación.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Aparecerá la pantalla que se muestra en la siguiente imagen. Si no aparece, pulsar el softkey \"Mostrar herramienta\".",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Para editar una herramienta, se debe clicar en el número correspondiente y escribir su nombre. Ejemplo: \"Fresa D16\". Posteriormente, seleccionar el tipo de herramienta y se concluye definiendo sus dimensiones principales.",
+	                        "step_description": "ES MUY IMPORTANTE que se pulse el botón ENTER al introducir cada valor. De lo contrario, no se guardará.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Erreminten definizioa",
+	        "introduction": "Prozedura honen helburua erabilera kasuan erabiliko diren tresnak definitzea eta izendatzea da.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "Modu osoa",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Sakatu \"TOOLS\" tekla, ondoren azaltzen den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Hurrengo irudian agertzen den pantaila agertuko da. Agertzen ez bada, sakatu \"Erakutsi taula\" tekla, bigarren irudian adierazten den moduan.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Tresna bat editatzeko, dagokion zenbakian klik egin eta izena idatzi behar da. Adibidez: \"Fresa D16\". Ondoren, erreminta mota hautatu eta haren dimentsio nagusiak definituz amaitzen da.",
+	                        "step_description": "OSO GARRANTZITSUA DA ENTER botoia sakatzea balio bakoitza sartzean. Bestela, ez da gordeko.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            },
+	            {
+	                "_id": 1,
+	                "title": "Modo simple",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Sakatu \"TOOLS\" tekla, ondoren azaltzen den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Hurrengo irudian agertzen den pantaila agertuko da. Agertzen ez bada, sakatu \"Erakutsi tresna\" tekla.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo2-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Tresna bat editatzeko, dagokion zenbakian klik egin eta izena idatzi behar da. Adibidez: \"Fresa D16\". Ondoren, erreminta mota hautatu eta haren dimentsio nagusiak definituz amaitzen da.",
+	                        "step_description": "OSO GARRANTZITSUA DA ENTER botoia sakatzea balio bakoitza sartzean. Bestela, ez da gordeko.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-herramientas/Metodo1-2-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "65113b305d9c3075571719b3",
+	    "es": {
+	        "title": "Definir material en bruto para la simulación de un programa",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "Formato conversacional",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Abrir el programa deseado",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Con el fin de establecer el material en bruto sobre el que se simulará posteriormente el programa, se debe pulsar la tecla \"EDIT\", tal y como  se indica en la siguiente imagen:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Aparecerá la pantalla de simulación que aparece en la imagen. Si no es así, clicar el botón EDIT hasta que esta aparezca.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Una vez en la pantalla de simulación, se deberá buscar el softkey de la barra horizontal llamado \"Dimensiones\".",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Una vez se haga clic en dicho botón, se abrirá la siguiente pantalla:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Las coordenadas máximas y mínimas para cada eje, que definirán la pieza en bruto, se deberán introducir en sus ventanas correspondientes.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            },
+	            {
+	                "_id": 1,
+	                "title": "Por comando",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Abrir el programa deseado.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Incluir en la cabecera del programa CNC (es decir, como primera línea de código) el siguiente comando con los valores correspondientes: #DGWZ[X Min,X Max,Y Min,Y Max,Z Min,Z Max]",
+	                        "step_description": "Por ejemplo, para la pieza de la imagen: #DGWZ[0,140,0,120,-40,0]",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo2-Paso2.PNG"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Simulaziorako material landugabea definitu",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "Elkarrizketa-formatua",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Nahi den programa zabaldu.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Programa simulatzerakoan erabiliko den material landugabea ezartzeko \"EDIT\" botoia sakatu behar da, honako irudian erakusten den bezala:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Irudian ikusten den simulazio-pantaila agertuko da. Horrela ez bada, sakatu EDIT botoia hura agertu arte.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Behin simulazio-pantailan, \"Dimentsioak\" izeneko barra horizontaleko softkey-a bilatu behar da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Botoi horretan klik egindakoan, ondorengo pantaila hau irekiko da:",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Ardatz bakoitzeko koordenatu maximoak eta minimoak, zeinek pieza landugabea definituko duten, dagozkien leihoetan sartu beharko dira.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo1-Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            },
+	            {
+	                "_id": 1,
+	                "title": "Komando bidez",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Nahi den programa zabaldu.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "CNC programaren goiburuan (kodearen lehenengo lerroan) jarraian agertzen den komandoa idatzi dagozkien balioekin: #DGWZ[X Min,X Max,Y Min,Y Max,Z Min,Z Max]",
+	                        "step_description": "Adibidez, irudiko piezaren kasuan: #DGWZ[0,140,0,120,-40,0]",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/definir-material/Metodo2-Paso2.PNG"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "65113d9f5d9c3075571719b5",
+	    "es": {
+	        "title": "Editar o modificar un programa",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Abrir el programa deseado.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Con el programa en pantalla, tal y como se muestra en la siguiente imagen, se podrá comenzar a modificar o extender el código G para programar la pieza.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/editar-programa/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Para guardar los cambios, no es necesaria ninguna acción específica: se guarda automáticamente.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Programa bat editatu edo eraldatu",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Nahi den programa ireki.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": " Programa pantailan jarrita, hurrengo irudian erakusten den bezala, G kodea aldatzen edo zabaltzen hasi ahal izango da pieza programatzeko",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/editar-programa/Metodo1-Paso2.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Aldaketak gordetzeko, ez da ekintza espezifikorik behar: automatikoki gordetzen dira.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "651144dc5d9c3075571719be",
+	    "es": {
+	        "title": "Ejecutar en máquina un programa en automático",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Independientemente de la pantalla en la que se encuentre el CNC, pulsar el botón AUTO.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Una vez en la pantalla de AUTOMÁTICO, se deberá abrir y seleccionar el programa que se quiere ejecutar en máquina. Para ello, hay que pulsar el botón \"Seleccionar programa\" y a continuación hacer doble clic en el programa que se quiere ejecutar.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Comprobar el programa cargado.",
+	                        "step_description": "Se estima necesario comprobar que el programa deseado es efectivamente el que se encuentra cargado y, por otro lado, es necesario comprobar que el programa se ejecutará a la velocidad calculada y programada antes de proceder a su ejecución. De lo contrario, podría ejecutarse un programa no deseado y producirse una colisión.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Accionar el botón de “marcha ciclo”, que siempre viene caracterizado por el color verde.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Makinan exekutatu programa bat modu automatikoan",
+	        "introduction": "",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": " CNC-a zein pantailatan dagoen kontuan hartu gabe, sakatu AUTO botoia.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso1.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Behin AUTOMATICO pantailan egonik, makinan exekutatu nahi den programa hautatu eta ireki behar da. Horretarako, \"Seleccionar programa\" botoia sakatu behar da, eta, ondoren, exekutatu nahi den programan klik bikoitza egin.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Kargatutako programa egiaztatu.",
+	                        "step_description": "Beharrezko jotzen da egiaztatzea exekutatu nahi den programa dagoela kargatuta, eta, bestalde, egiaztu behar da kalkulatu eta programatutako abiaduran exekutatuko dela programa, exekutatu aurretik. Bestela, nahi ez den programa bat exekutatu eta talkaren bat gerta liteke.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "\"Martxa ziklo” botoia sakatu. Botoi hori duen kolore berdeagatik nabarmentzen da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/ejecutar-programa/Metodo1-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "65113fde5d9c3075571719b6",
+	    "es": {
+	        "title": "Programación de ciclos para cajera en formato conversacional",
+	        "introduction": "El software dispone de dos posibilidades para realizar cajeras. Una mediante sistema ISO código G y por otro lado el formato conversacional. En este último se selecciona el procedimiento que se quiere realizar y el sistema solicita los parámetros necesarios para la realización de la operación. Como ejemplo, este procedimiento muestra cómo definir una cajera rectangular interior con esquinas redondeadas.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Editar un programa.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso1.png"
+	                        ],
+	                        "nesting": "65113d9f5d9c3075571719b5"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Estando en el lugar que corresponda del programa, pulsaremos el softkey \"Ciclos\"/ \"Editor de ciclos M\". ",
+	                        "step_description": "De esta manera se accede a la pantalla de ciclos.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Desde la pantalla principal de ciclos, el segundo softkey da acceso a la definición de la cajera a realizar. ",
+	                        "step_description": "Seleccionando dicho softkey se desplegarán los diferentes tipos de cajeras que se pueden realizar. En este caso, se seleccionará \"Cajera rectangular con redondeos\".",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Se nos mostrará una pantalla con la geometría y los parámetros que se han de definir.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Introducir las dimensiones geométricas, posición y referencia de la cajera tal y como indica la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Introducir el posicionado vertical, dimensiones de profundidad, orientación angular y redondeos de esquinas tal y como se indica en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Activar (o desactivar) el proceso de desbaste e introducir los parámetros de mecanizado tal y como se indica en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 7,
+	                        "title": "Seleccionar la herramienta, decalaje, sentido de giro del cabezal y sentido del mecanizado tal y como se muestra en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso8.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 8,
+	                        "title": "Activar (o desactivar) el proceso de acabado e introducir parámetros de mecanizado tal y como se muestra en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso9.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 9,
+	                        "title": "Seleccionar la herramienta, decalaje, sentido de giro del cabezal y sentido del mecanizado.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso10.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 10,
+	                        "title": "Insertar ciclo definido en el programa editado. ",
+	                        "step_description": "Una vez definido el ciclo de mecanizado en cuestión completamente, se debe pulsar la tecla \"INS\" para insertar el ciclo en el programa editado.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso11.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 11,
+	                        "title": "El ciclo se visualizará en el programa. Para alternar la visualización entre modo reducido o modo extendido, se debe de pulsar el botón \"+\" que aparece junto a la línea de código.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso12a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso12b.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso12c.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 12,
+	                        "title": "Para modificar un ciclo ya introducido en el programa, basta con posicionarse en dicho ciclo dentro del programa y pulsar la tecla \"RECALL\", que nos volverá a abrir la pantalla de programación del ciclo en cuestión.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso13a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso13b.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Kajerarako zikloak elkarrizketa formatuan programatzea",
+	        "introduction": "Softwareak kajerak egiteko bi aukera ditu. Batetik, ISO sistema G kodea eta bestetik, era konbertsazionala. Azken metedo honek egin nahi den prozedura aukeratzea eta sistemak behar dituen parametroak sartzea eskatzen ditu. Adibide modura, prozedura honek ertzak biribilduta dituen barne kajera laukizuzena zelan definitu erakusten du.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Programa bat editatu.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso1.png"
+	                        ],
+	                        "nesting": "65113d9f5d9c3075571719b5"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Programan dagokion lekuan egonik, \"Ciclos\"/ \"Editor de ciclos M\" softkey-ak sakatu.",
+	                        "step_description": "Modu honetan ziklo finkoen pantailara sartzen da.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Zikloen pantaila nagusitik, bigarren softkey-ak kajeraren definiziorako sarbidea ematen du.",
+	                        "step_description": "Softkey hori hautatuta, egin daitezkeen kajera motak zabalduko dira. Kasu honetan, \"Kajera laukizuzena biribiltzeekin\" aukeratuko da.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Geometria eta definitu beharreko parametroak jasotzen dituen pantaila bat agertuko zaigu.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Kajeraren dimentsio geometrikoak, posizioa eta erreferentzia sartu, irudiak adierazten duen moduan.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso5.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Posizionamendu bertikala, sakonerako neurriak, orientazio angeluarra eta izkinen biribiltzeak sartu, irudian adierazten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Arbastatzeko prozesua aktibatu (edo desaktibatu) eta mekanizazio-parametroak sartu, irudian adierazten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 7,
+	                        "title": "Erreminta, dekalajea, buruaren biraketa-noranzkoa eta mekanizazioaren noranzkoa hautatu, irudian erakusten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso8.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 8,
+	                        "title": "Akabera-prozesua aktibatu (edo desaktibatu) eta mekanizazio-parametroak sartu, irudian erakusten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso9.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 9,
+	                        "title": "Erreminta, dekalajea, buruaren biraketa-noranzkoa eta mekanizazioaren noranzkoa hautatu.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso10.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 10,
+	                        "title": "Editaturiko programan zehaztutako zikloa txertatu.",
+	                        "step_description": "Dena delako mekanizazio-zikloa erabat definitu ondoren, \"INS\" tekla sakatu behar da zikloa editatutako programan txertatzeko.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso11.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 11,
+	                        "title": "Zikloa programan bistaratuko da. Bistaratzea modu murriztuan edo hedatuan txandakatzeko, kode-lerroaren ondoan agertzen den \"+\" botoia sakatu behar da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso12a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso12b.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso12c.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 12,
+	                        "title": "Programan sartutako ziklo bat aldatzeko, nahikoa da ziklo horretan programaren barruan kokatzea eta \"RECALL\" tekla sakatzea, ziklo horretako programazioPrograman sartutako ziklo bat aldatzeko, nahikoa da ziklo horretan programaren barruan kokatzea eta “RECALL” tekla sakatzea, ziklo horretako programazio-pantaila berriro irekiko diguna.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso13a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-cajera-conversacional/Metodo1Paso13b.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "651144435d9c3075571719bc",
+	    "es": {
+	        "title": "Programación de ciclos para taladrados en formato conversacional",
+	        "introduction": "El software dispone de dos posibilidades para realizar taladrados. Una mediante sistema ISO código G y por otro lado el formato conversacional. En este último se selecciona el procedimiento que se quiere realizar y el sistema solicita los parámetros necesarios para la realización de la operación.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Editar un programa.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso1.png"
+	                        ],
+	                        "nesting": "65113d9f5d9c3075571719b5"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Estando en el lugar que corresponda del programa, pulsaremos el softkey \"Ciclos\"/ \"Editor de ciclos M\". De esta manera se accede a la pantalla de ciclos.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "En los softkeys de la parte de abajo de esta pantalla se seleccionaría el tipo de ciclo que se quiere realizar.",
+	                        "step_description": "En este caso, se seleccionará \"Taladrado\", pulsando el softkey de la imagen.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Desde la pantalla principal de ciclos, el primer softkey da acceso a la definición de los diferentes ciclos de taladrador. Seleccionando dicho softkey se desplegarán los diferentes tipos de taladrados que se pueden realizar.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Si se selecciona la operación de taladrado (2ª opción), el CNC solicitará los parámetros necesarios para su definición.",
+	                        "step_description": "Navegando por las diferentes casillas, el control visualizará los datos a introducir: coordenadas X e Y del taladro, profundidad, paso de profundización, herramienta, etc.",
+	                        "additional_info": [],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Introducir las dimensiones geométricas, posición y profundidad del taladrado tal y como se muestra en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Introducir los parámetros de cortes, temporización, paso máximo de profundización y desahogo tal y como se muestra en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 7,
+	                        "title": "Seleccionar herramienta, decalaje y sentido de giro del cabezal tal y como se muestra en la imagen.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso8.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 8,
+	                        "title": "Insertar ciclo definido en el programa editado. Una vez definido el ciclo de mecanizado en cuestión completamente, se debe pulsar la tecla \"INS\" para insertar el ciclo en el programa editado.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso9.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 9,
+	                        "title": "El ciclo se visualizará en el programa. Para alternar la visualización entre modo reducido o modo extendido, se debe de pulsar el botón \"+\" que aparece junto a la línea de código.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso10a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso10b.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso10c.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 10,
+	                        "title": "Para modificar un ciclo ya introducido en el programa, basta con posicionarse en dicho ciclo dentro del programa y pulsar la tecla \"RECALL\", que nos volverá a abrir la pantalla de programación del ciclo en cuestión.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso11a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso11b.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Zulaketetarako zikloak elkarrizketa formatuan programatzea",
+	        "introduction": "Softwareak bi aukera ditu zulaketak egiteko. Bat ISO sistemaren G kodearen bidez, eta bestea elkarrizketa-formatua. Azken horretan, egin nahi den prozedura hautatzen da, eta sistemak eragiketa egiteko behar diren parametroak eskatuko ditu",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": " Programa bat editatu.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso1.png"
+	                        ],
+	                        "nesting": "65113d9f5d9c3075571719b5"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Programan dagokion lekuan egonik, \"Ciclos\"/ \"Editor de ciclos M\" softkey-ak sakatu. Horrela zikloen pantailan sartzen da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Pantaila honen beheko aldeko softkeyetan egin nahi den ziklo mota hautatu.",
+	                        "step_description": "Kasu honetan, \"Zulaketa\" hautatuko da, irudiko softkey-a sakatuta.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso3.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Zikloen pantaila nagusitik, lehenengo softkey-ak zulatzaile-zikloen definiziorako sarbidea ematen du. Softkey hori hautatuta, egin daitezkeen zulaketa motak zabalduko dira.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 4,
+	                        "title": "Zulatzeko eragiketa hautatzen bada (2. aukera), CNCak hura definitzeko behar diren parametroak eskatuko ditu.",
+	                        "step_description": "Laukitxo desberdinetatik nabigatuta, kontrolak sartu beharreko datuak bistaratuko ditu: zulagailuaren X eta Y koordenatuak, sakontasuna, sakontasun-urratsa, erreminta, etab.",
+	                        "additional_info": [],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 5,
+	                        "title": "Zulaketaren dimentsio geometrikoak, posizioa eta sakonera sartu, irudian erakusten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso6.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 6,
+	                        "title": "Mozketen, tenporizazioaren, sakontzearen gehieneko urratsaren eta lasaitzearenMozketen, tenporizazioaren, sakontzearen gehieneko urratsaren eta lasaitzearen parametroak sartu, irudian erakusten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso7.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 7,
+	                        "title": "Erreminta, dekalajea eta buruaren biraketa-noranzkoa hautatu, irudian erakusten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso8.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 8,
+	                        "title": "Editatutako programan zehaztutako zikloa txertatu. Dena delako mekanizazio-zikloa erabat definitu ondoren, \"INS\" tekla sakatu behar da zikloa editatutako programan txertatzeko.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso9.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 9,
+	                        "title": "Zikloa programan bistaratuko da. Bistaratzea modu murriztuan edo hedatuan txandakatzeko, kode-lerroaren ondoan agertzen den \"+\" botoia sakatu behar da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso10a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso10b.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso10c.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 10,
+	                        "title": "Programan sartutako ziklo bat aldatzeko, nahikoa da programaren barruan ziklo horretan kokatzea eta RECALL tekla sakatzea, ziklo horretako programazio-pantaila berriro irekiko diguna.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso11a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/programacion-ciclos-taladro-conversacional/Metodo1Paso11b.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	},
+	{
+	    "_id": "651142755d9c3075571719ba",
+	    "es": {
+	        "title": "Simular un programa",
+	        "introduction": "Una vez se ha programado un programa, es conveniente simular las trayectorias y verificar que no se dan colisiones de herramienta, o entradas no deseadas dentro de la pieza de trabajo final.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "Ejecutar la simulación en la misma pantalla de edición del programa",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Abrir programa.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Pulsar el softkey de \"start simulación\".",
+	                        "step_description": "Simular de esta manera puede servir para detectar errores, pero sin ver ningún movimiento de ejes o simulación de líneas. En el caso de que el programa no contenga errores, no se visualizará ningún mensaje, simplemente la simulación correrá.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            },
+	            {
+	                "_id": 1,
+	                "title": "Activar la pantalla de simulación 2D o 3D",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Si en pantalla no aparece el programa que se desea simular, es necesario abrir el programa deseado.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "Pulsar el botón \"EDIT\" hasta que se active la pantalla de simulación 2D o 3D, tal y como se muestra en las siguientes imágenes.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Pulsar \"Start Simulación\" y la simulación de la pieza comenzará.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Existen diferentes modos de visualización: 2D, 3D, plano XY, plano XZ, etc.",
+	                        "step_description": "Pulsando el softkey “Tipo de gráfico” se desplegará la opción de visualización de simulación tal y como se muestra en la siguiente imagen.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    },
+	    "eu": {
+	        "title": "Programa bat simulatu",
+	        "introduction": "Programa bat programatu ondoren, komenigarria da ibilbideak simulatzea eta egiaztatzea ez dela gertatzen erreminta talkarik edo nahi ez diren sarrerarik laneko piezaren barruan.",
+	        "additional_info": [],
+	        "methods": [
+	            {
+	                "_id": 0,
+	                "title": "Programa editatzeko pantailan bertan egin simulazioa",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Programa ireki.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": "\"Start simulación\" softkey-a sakatu.",
+	                        "step_description": "Horrela simulatzeak akatsak antzemateko balio dezake, baina ardatzen mugimendurik edo lerroen simulaziorik ikusi gabe. Programak akatsik ez badu, ez da mezurik bistaratuko; simulazioak aurrera egingo du, besterik gabe.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo1-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            },
+	            {
+	                "_id": 1,
+	                "title": "2D edo 3D simulazio-pantaila aktibatu",
+	                "steps": [
+	                    {
+	                        "_id": 0,
+	                        "title": "Pantailan simulatu nahi den programa agertzen ez bada, nahi den programa ireki behar da.",
+	                        "step_description": "",
+	                        "additional_info": [],
+	                        "nesting": "65113a0c5d9c3075571719b2"
+	                    },
+	                    {
+	                        "_id": 1,
+	                        "title": " Sakatu \"EDIT\" botoia 2D edo 3D simulazio-pantaila aktibatu arte, hurrengo irudietan erakusten den bezala.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso2b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 2,
+	                        "title": "Sakatu \"Start Simulación\" eta piezaren simulazioa hasiko da.",
+	                        "step_description": "",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3a.png",
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso3b.png"
+	                        ],
+	                        "nesting": ""
+	                    },
+	                    {
+	                        "_id": 3,
+	                        "title": "Bistaratzeko hainbat modu daude: 2D, 3D, XY planoa, XZ planoa, etab.",
+	                        "step_description": "\"Grafiko mota\" softkey-a sakatuz gero, simulazioa bistaratzeko aukera zabalduko da, hurrengo irudian agertzen den bezala.",
+	                        "additional_info": [
+	                            "https://github.com/Vicomtech/CNC-Assist/tree/main/PROCEDURES_images/simular-programa/Metodo2-Paso4.png"
+	                        ],
+	                        "nesting": ""
+	                    }
+	                ]
+	            }
+	        ]
+	    }
+	}
+]
