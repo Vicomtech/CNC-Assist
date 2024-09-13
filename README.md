@@ -9,6 +9,15 @@ The corpus is divided into two main subsets:
 1. **Question-Answering Subset**: A bilingual collection of question-answer pairs covering a range of topics related to CNC programming.
 2. **Procedures Subset**: A series of step-by-step procedures, also bilingual, detailing various tasks involved in CNC programming.
 
+## Repository Structure
+
+The repository is organized into the following folders:
+
+- **`QA_corpus.json`**: Contains a JSON file listing all question-answer pairs in both Spanish and Basque.
+- **`QA_images/`**: A folder containing images associated with the question-answer pairs.
+- **`PROCEDURES_corpus.json`**: Contains a JSON file listing all procedures in both Spanish and Basque.
+- **`PROCEDURES_images/`**: A folder containing images associated with the procedures.
+
 ## Data Compilation
 
 ### 1. Question-Answering Subset
@@ -140,7 +149,7 @@ This corpus is licensed under the [MIT License](LICENSE). See the LICENSE file f
 
 ## Contact
 
-For any questions or inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or inquiries, please contact [magirre@vicomtech.org](mailto:magirre@vicomtech.org).
 
 ---
 
