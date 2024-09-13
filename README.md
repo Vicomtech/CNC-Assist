@@ -145,7 +145,7 @@ Contributions to the corpus are welcome! If you have suggestions for additional 
 
 ## License
 
-This corpus is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+The resources in this repository are licensed under the Creative Commons Attribution-ShareAlike 3.0 Spain License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/es/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 ## Contact
 
