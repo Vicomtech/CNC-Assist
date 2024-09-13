@@ -1,6 +1,6 @@
-# CNC Programming Corpus
+# CNC Assist Corpus
 
-Welcome to the CNC Programming Corpus repository! This repository contains a compiled corpus designed to support CNC programming, offering a comprehensive set of question-answer pairs and procedural instructions in both Spanish and Basque.
+Welcome to the CNC Assist Corpus repository! This repository contains a compiled corpus designed to support CNC programming, offering a comprehensive set of question-answer pairs and procedural instructions in both Spanish and Basque.
 
 ## Contents
 
@@ -144,4 +144,4 @@ For any questions or inquiries, please contact [your-email@example.com](mailto:y
 
 ---
 
-Thank you for using the CNC Programming Corpus! We hope this resource aids in your CNC programming endeavors.
+Thank you for using the CNC Assist Corpus! We hope this resource aids in your CNC programming endeavors.
