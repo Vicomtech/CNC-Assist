@@ -9,6 +9,15 @@ The corpus is divided into two main subsets:
 1. **Question-Answering Subset**: A bilingual collection of question-answer pairs covering a range of topics related to CNC programming.
 2. **Procedures Subset**: A series of step-by-step procedures, also bilingual, detailing various tasks involved in CNC programming.
 
+## Repository Structure
+
+The repository is organized into the following folders:
+
+- **`QA_corpus.json`**: Contains a JSON file listing all question-answer pairs in both Spanish and Basque.
+- **`QA_images/`**: A folder containing images associated with the question-answer pairs.
+- **`PROCEDURES_corpus.json`**: Contains a JSON file listing all procedures in both Spanish and Basque.
+- **`PROCEDURES_images/`**: A folder containing images associated with the procedures.
+
 ## Data Compilation
 
 ### 1. Question-Answering Subset
@@ -20,18 +29,20 @@ This subset includes questions and answers based on the Spanish version of a ref
 - **Annotation**: Using the CrowdZientzia platform, bilingual technical experts annotated questions, categorized them into "generic" or "specific", and provided both original and improved answers.
 - **Translation**: The question-answer pairs were translated into Basque.
 
-#### Format
+#### Files
 
-Each entry in this subset contains:
+- **`QA_corpus.json`**: Contains the question-answer pairs. Each entry includes:
+  - **es** (Spanish) and **eu** (Basque) versions of the question and answer.
+  - **question**: The question text.
+  - **question_variations**: Variations of the question.
+  - **answer**: The raw answer text.
+  - **html_answer**: HTML-structured answer (for generic questions).
+  - **improved_answer**: Enhanced answer provided by annotators.
+  - **type**: The question type ("generic" or "specific").
+  - **image**: Associated images, if any.
 
-- **es** (Spanish) and **eu** (Basque) versions of the question and answer.
-- **question**: The question text.
-- **question_variations**: Variations of the question.
-- **answer**: The raw answer text.
-- **html_answer**: HTML-structured answer (for generic questions).
-- **improved_answer**: Enhanced answer provided by annotators.
-- **type**: The question type ("generic" or "specific").
-- **image**: Associated images, if any.
+- **`QA_images/`**: Contains images referenced in the `QA_corpus.json` file. Each image is linked to a question-answer pair.
+
 
 #### Example
 
@@ -65,19 +76,20 @@ This subset comprises procedural instructions detailing various tasks involved i
 - **Compilation**: Procedures were organized into JSON format using a custom GUI.
 - **Linking**: Procedures include links to related procedures when necessary.
 
-#### Format
+#### Files
 
-Each entry in this subset contains:
+- - **`PROCEDURES_corpus.json`**: Contains the procedural instructions. Each entry includes:
+  - **es** (Spanish) and **eu** (Basque) versions of the procedure.
+  - **title**: The title of the procedure.
+  - **introduction**: Optional introductory text.
+  - **additional_info**: Extra information like images.
+  - **methods**: Different methods to perform the procedure.
+  - **steps**: A series of steps involved in the procedure.
+  - **step_description**: Description of each step.
+  - **nesting**: Links to nested procedures if applicable.
 
-- **es** (Spanish) and **eu** (Basque) versions of the procedure.
-- **title**: The title of the procedure.
-- **introduction**: Optional introductory text.
-- **additional_info**: Extra information like images.
-- **methods**: Different methods to perform the procedure.
-- **steps**: A series of steps involved in the procedure.
-- **step_description**: Description of each step.
-- **nesting**: Links to nested procedures if applicable.
-
+- **`PROCEDURES_images/`**: Contains images referenced in the 'PROCEDURES_corpus.json' file. Each image is linked to a procedural instruction.
+- 
 #### Example
 
 ```json
@@ -130,17 +142,21 @@ Each entry in this subset contains:
 }
 ```
 
+## References
+
+This corpus is part of the research presented in the paper titled "Towards the Development of a Conversational CNC Assistant: Compiling a Sample of Key Questions and Procedures for Benchmarking Purposes". The paper will be published as part of the proceedings of the International Conference on Industry 4.0 and Smart Manufacturing (ISM 2024).
+
 ## Contributing
 
 Contributions to the corpus are welcome! If you have suggestions for additional question-answer pairs or procedures, or if you notice any errors, please open an issue or submit a pull request.
 
 ## License
 
-This corpus is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+The resources in this repository are licensed under the Creative Commons Attribution-ShareAlike 3.0 Spain License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/es/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 ## Contact
 
-For any questions or inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For any questions or inquiries, please contact [magirre@vicomtech.org](mailto:magirre@vicomtech.org).
 
 ---
 
