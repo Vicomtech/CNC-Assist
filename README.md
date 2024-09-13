@@ -78,7 +78,7 @@ This subset comprises procedural instructions detailing various tasks involved i
 
 #### Files
 
-- - **`PROCEDURES_corpus.json`**: Contains the procedural instructions. Each entry includes:
+- **`PROCEDURES_corpus.json`**: Contains the procedural instructions. Each entry includes:
   - **es** (Spanish) and **eu** (Basque) versions of the procedure.
   - **title**: The title of the procedure.
   - **introduction**: Optional introductory text.
