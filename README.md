@@ -146,6 +146,10 @@ This subset comprises 10 procedural instructions detailing various tasks involve
 
 This corpus is part of the research presented in the paper titled "Towards the Development of a Conversational CNC Assistant: Compiling a Sample of Key Questions and Procedures for Benchmarking Purposes". The paper will be published as part of the proceedings of the International Conference on Industry 4.0 and Smart Manufacturing (ISM 2024).
 
+## Acknowledgments
+
+We would like to express our gratitude to Fagor for granting us the use of their instruction manuals, which have been essential in carrying out this research. This work has received funding from the the Department of Economic Development and Infrastructure of the Basque Government under grant number KK-2022/00102 (BERREKIN).
+
 ## Contributing
 
 Contributions to the corpus are welcome! If you have suggestions for additional question-answer pairs or procedures, or if you notice any errors, please open an issue or submit a pull request.
