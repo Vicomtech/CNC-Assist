@@ -148,7 +148,7 @@ This corpus is part of the research presented in the paper titled "Towards the D
 
 ## Acknowledgments
 
-We would like to express our gratitude to Fagor Automation for granting us the use of their instruction manuals, which have been essential to compile the presented corpus.
+We would like to express our gratitude to Fagor Automation (www.fagorautomation.com) for granting us the use of their instruction manuals, which have been essential to compile the presented corpus.
 This work has received funding from the the Department of Economic Development and Infrastructure of the Basque Government under grant number 
 KK-2022/00102 (BERREKIN).
 
