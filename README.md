@@ -1,6 +1,6 @@
 # CNC Assist Corpus
 
-Welcome to the CNC Assist Corpus repository! This repository contains a compiled corpus designed to support CNC programming, offering a comprehensive set of question-answer pairs and procedural instructions in both Spanish and Basque.
+Welcome to the CNC Assist Corpus repository! This repository contains a compiled corpus designed to support CNC programming, offering a comprehensive set of 221 question-answer pairs and 10 procedural instructions in both Spanish and Basque.
 
 ## Contents
 
@@ -22,7 +22,7 @@ The repository is organized into the following folders:
 
 ### 1. Question-Answering Subset
 
-This subset includes questions and answers based on the Spanish version of a reference technical manual for milling machines. The process for compiling this subset includes:
+This subset includes 221 questions and answers based on the Spanish version of a reference technical manual for milling machines. The process for compiling this subset includes:
 
 - **Conversion**: The technical manual was converted from PDF to a machine-readable HTML format.
 - **Processing**: Textual data was cleaned and organized into JSON format.
@@ -70,7 +70,7 @@ This subset includes questions and answers based on the Spanish version of a ref
 
 ### 2. Procedures Subset
 
-This subset comprises procedural instructions detailing various tasks involved in CNC programming. It includes:
+This subset comprises 10 procedural instructions detailing various tasks involved in CNC programming. It includes:
 
 - **Identification**: Procedures were identified and annotated by bilingual technical experts.
 - **Compilation**: Procedures were organized into JSON format using a custom GUI.
@@ -152,7 +152,7 @@ Contributions to the corpus are welcome! If you have suggestions for additional 
 
 ## License
 
-The resources in this repository are licensed under the Creative Commons Attribution-ShareAlike 3.0 Spain License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/es/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+The resources in this repository are licensed under the Creative Commons Attribution-ShareAlike 4.0 Spain License. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 
 ## Contact
 
